@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filterByCountry"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="155dp" />
+
+    <Spinner
+        android:id="@+id/filterSpinnerCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filterByState"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="167dp" />
+
+    <Spinner
+        android:id="@+id/filterSpinnerState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_below="@+id/textView13"
+        android:layout_toEndOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filterByYear"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/filterSpinnerYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_below="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_alignEnd="@+id/textView14" />
+
+    <Button
+        android:id="@+id/userListViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/displayUsersOnList"
+        android:layout_above="@+id/logOutButtonID"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/filterSpinnerYear" />
+
+    <Button
+        android:id="@+id/userMapViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/displayUsersOnMap"
+        android:layout_above="@+id/logOutButtonID"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/chatHistoryButtonID" />
+
+    <Button
+        android:id="@+id/logOutButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/logout" />
+
+    <ListView
+        android:id="@+id/userList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/userListViewButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/filterSpinnerYear" />
+
+    <Button
+        android:id="@+id/chatHistoryButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chatHistory"
+        android:layout_alignBaseline="@+id/userMapViewButton"
+        android:layout_alignBottom="@+id/userMapViewButton"
+        android:layout_toEndOf="@+id/userListViewButton" />
+
+</RelativeLayout>

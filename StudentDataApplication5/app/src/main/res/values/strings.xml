@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">StudentDataApplication5</string>
+    <string name="newStudentRegistration">New Student Registration</string>
+    <string name="enterEmail">Enter Email</string>
+    <string name="enterNickName">Enter Nick Name</string>
+    <string name="enterPassword">Enter Password</string>
+    <string name="setCountryState"><![CDATA[Set Country & State]]></string>
+    <string name="setCountry">Set Country</string>
+    <string name="setState">Set State</string>
+    <string name="enterCity">Enter City</string>
+    <string name="setLatLong"><![CDATA[Set Longitude & Latitude]]></string>
+    <string name="setLongitude">Set Longitude</string>
+    <string name="setLatitude">Set Latitude</string>
+    <string name="registerUser">Register User</string>
+    <string name="clearFields">Clear Fields</string>
+    <string name="existingUserLogin">Existing User Login</string>
+    <string name="login">Login</string>
+    <string name="setYearBelow">Set Year Below</string>
+    <string name="title_activity_set_lat_long_maps">Map</string>
+    <string name="done">done</string>
+    <string name="cancel">cancel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="filterByCountry">Filter By Country</string>
+    <string name="filterByState">Filter By State</string>
+    <string name="filterByYear">Filter By Year</string>
+    <string name="displayUsersOnList">Display users on list [Click to Refresh]</string>
+    <string name="displayUsersOnMap">Display Users On Map</string>
+    <string name="back">back</string>
+    <string name="title_activity_display_users_maps">Map</string>
+    <string name="logout">Logout</string>
+    <string name="typeMessage">Type Message</string>
+    <string name="sendMessage">Send</string>
+    <string name="chatHistory">Chat History User List</string>
+    <string name="displayMore">DISPLAY MORE USERS</string>
+</resources>

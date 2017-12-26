@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/newStudentRegistrationID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/newStudentRegistration"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/emailID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/newStudentRegistrationID"
+        android:layout_alignStart="@+id/newStudentRegistrationID"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/enterEmail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/nickNameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enterNickName"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/loginEmailID"
+        android:layout_alignStart="@+id/emailID" />
+
+    <EditText
+        android:id="@+id/passwordID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enterPassword"
+        android:inputType="textPassword"
+        android:layout_below="@+id/nickNameID"
+        android:layout_alignStart="@+id/nickNameID"
+        android:layout_marginTop="22dp"
+        android:layout_alignEnd="@+id/nickNameID" />
+
+    <Button
+        android:id="@+id/setCountryStateButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setCountryState"
+        android:layout_below="@+id/passwordID"
+        android:layout_alignStart="@+id/passwordID"
+        android:layout_marginTop="13dp"
+        android:layout_alignEnd="@+id/passwordID" />
+
+    <EditText
+        android:id="@+id/countryID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/setCountry"
+        android:inputType="textPersonName"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/setCountryStateButtonID"
+        android:layout_alignStart="@+id/setCountryStateButtonID"
+        android:layout_alignEnd="@+id/setCountryStateButtonID" />
+
+    <EditText
+        android:id="@+id/stateID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/setState"
+        android:inputType="textPersonName"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/countryID"
+        android:layout_alignStart="@+id/countryID"
+        android:layout_alignEnd="@+id/countryID" />
+
+    <EditText
+        android:id="@+id/cityID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enterCity"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/stateID"
+        android:layout_alignStart="@+id/stateID"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:id="@+id/setLatLongID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setLatLong"
+        android:layout_alignBottom="@+id/setCountryStateButtonID"
+        android:layout_toEndOf="@+id/setCountryStateButtonID"
+        android:layout_marginStart="36dp"
+        android:layout_alignTop="@+id/setCountryStateButtonID" />
+
+    <EditText
+        android:id="@+id/longitudeID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/setLongitude"
+        android:inputType="textPersonName"
+        android:layout_alignBaseline="@+id/countryID"
+        android:layout_alignBottom="@+id/countryID"
+        android:layout_alignStart="@+id/setLatLongID" />
+
+    <EditText
+        android:id="@+id/latitudeID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/setLatitude"
+        android:inputType="textPersonName"
+        android:layout_alignBaseline="@+id/stateID"
+        android:layout_alignBottom="@+id/stateID"
+        android:layout_alignStart="@+id/longitudeID" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="133dp"
+        android:text="@string/existingUserLogin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_alignBaseline="@+id/newStudentRegistrationID"
+        android:layout_alignBottom="@+id/newStudentRegistrationID"
+        android:layout_alignParentEnd="true"
+        tools:ignore="RelativeOverlap" />
+
+    <EditText
+        android:id="@+id/loginEmailID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enterEmail"
+        android:inputType="textEmailAddress"
+        android:layout_marginEnd="27dp"
+        android:layout_alignTop="@+id/emailID"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginTop="11dp" />
+
+    <EditText
+        android:id="@+id/loginPasswordID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enterPassword"
+        android:inputType="textPassword"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignStart="@+id/loginEmailID"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:id="@+id/loginButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_alignTop="@+id/passwordID"
+        android:layout_alignStart="@+id/loginPasswordID"
+        android:layout_marginTop="21dp"
+        android:layout_alignEnd="@+id/loginPasswordID" />
+
+    <Button
+        android:id="@+id/clearAllFieldsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cityID"
+        android:layout_below="@+id/cityID"
+        android:layout_marginTop="16dp"
+        android:text="@string/clearFields"
+        android:layout_alignEnd="@+id/latitudeID" />
+
+    <Button
+        android:id="@+id/registerUserID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/latitudeID"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/clearAllFieldsButton"
+        android:layout_below="@+id/clearAllFieldsButton"
+        android:text="@string/registerUser" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setYearBelow"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_alignBaseline="@+id/nickNameID"
+        android:layout_alignBottom="@+id/nickNameID"
+        android:layout_alignStart="@+id/setLatLongID"
+        android:layout_alignEnd="@+id/longitudeID" />
+
+    <Spinner
+        android:id="@+id/yearSpinnerID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/loginPasswordID"
+        android:layout_alignEnd="@+id/setLatLongID"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/nickNameID" />
+
+</RelativeLayout>

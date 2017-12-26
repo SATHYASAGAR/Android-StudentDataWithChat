@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "211114544938",
+    "firebase_url": "https://studentdataapplication5.firebaseio.com",
+    "project_id": "studentdataapplication5",
+    "storage_bucket": "studentdataapplication5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211114544938:android:929ef6151333f1a8",
+        "android_client_info": {
+          "package_name": "com.example.sathy.studentdataapplication5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211114544938-dkbkmddtebf6oabgrirqonkj0t9p2jk3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sathy.studentdataapplication5",
+            "certificate_hash": "a8c2bdcfd53561cabcb950e2c550ddcf73a3c6a2"
+          }
+        },
+        {
+          "client_id": "211114544938-noa12dpi6bfq869km5cvgmakfrttim63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXkeb9YtJdLF0oW4KaeY8QqrEOk2lGp08"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211114544938-noa12dpi6bfq869km5cvgmakfrttim63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
